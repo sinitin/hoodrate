@@ -36,4 +36,10 @@ var routes = Routes{
 		"/todos/{todoId}",
 		TodoShow,
 	},
+	Route{
+		"TodoShow",
+		"GET",
+		"/hood/{areaCode}",
+		HoodShow,
+	},
 }
